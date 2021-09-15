@@ -1,1 +1,1 @@
-# https://arianspacerock.github.io/rsschool-cv/cv
+# https://arianspacerock.github.io/rsschool-cv/
