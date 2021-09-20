@@ -204,9 +204,6 @@ img {
 
 /* ---------------------------------------- */
 
-.advantages {
-    
-}
 
 @media (max-width: 992px) {
     .advantages {
@@ -379,7 +376,7 @@ img {
 .whoweare__code {
     flex: 0 0 57%;
     position: relative;
-    padding: 0px 0px 10% 0px;
+    padding: 0px 0px 8% 0px;
 }
 
 @media (max-width: 767px) {
@@ -397,6 +394,13 @@ img {
     align-items: center;
     justify-content: space-between;
     margin: 100px;
+}
+
+@media (max-width: 770px) {
+    .lang__all {
+        flex: 1 1 50%;
+        flex-direction: column;
+    }
 }
 
 .lang__english{
@@ -435,28 +439,27 @@ img {
     color: #737373;
 }
 
+@media (max-width: 770px) {
+    .contacts__links {
+        flex: 1 1 50%;
+        flex-direction: column;
+    }
+}
+
 /* ---------------------------------------------------------------- */
 
 .footer {
-    margin: 100px;
+    margin: 100px 0px 10px 0px;
 }
 
 .footer__container {
     display: flex;
     justify-content: space-between;
-}
-
-.footer__links {
     
 }
 
-.social__item {
-   
-}
 
-.git__hub {
-    
-}
+
 
 
 
