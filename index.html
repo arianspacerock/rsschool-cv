@@ -143,21 +143,11 @@
                     <div class="whoweare__code">
                         <div class="whoweare__cod">
                             <pre><code class="html">
-                            module.exports = function towelSort(matrix) {
-                            let result = [];
-                          
-                            if (arguments.length===0 || matrix.length === 0) return result;
-                          
-                            for (let index = 0; index matrix.length; index+)  {
-                                if (index % 2 === 0) {
-                                    result.push(...matrix[index]);
-                                } else {
-                                  result.push(...matrix[index].sort((a,b)=>b-a))
+                                module.exports = function reverse (n) {
+                                    let r = n.toString().split('').reverse().join('');
+                                    return parseInt(r);
                                 }
-                            }
-                          
-                            return result;
-                          };</code></pre>
+                            </code></pre>
                         </div>
                     </div>
                 </div>
